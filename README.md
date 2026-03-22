@@ -95,7 +95,7 @@ A GraphQL interceptor runs in the background purely to enrich follower/following
 
 **.87 🌵**
 
-I build tools that solve my own problems. This one saved me hours.
+I build tools that solve my own problems.
 
 → **𝕏:** [@ofalamin](https://x.com/ofalamin)  
 → **Telegram Channel:** [t.me/Labs87](https://t.me/Labs87)  
