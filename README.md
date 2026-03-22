@@ -1,8 +1,6 @@
 # 𝕏 Unfollow Detector 🌵
 
-> **Built by [.87](https://x.com/ofalamin) — [@ofalamin](https://x.com/ofalamin) | [t.me/Labs87](https://t.me/Labs87)**
-
-A Chrome extension that scans your X (Twitter) Following list in real time and reveals every account that **isn't following you back** — so you can clean house in seconds.
+A Chrome extension that scans your 𝕏 (Twitter) Following list in real time and reveals every account that **isn't following you back** — so you can clean house in seconds.
 
 No API keys. No third-party servers. Everything runs locally in your browser using your own session.
 
@@ -99,7 +97,7 @@ A GraphQL interceptor runs in the background purely to enrich follower/following
 
 I build tools that solve my own problems. This one saved me hours.
 
-→ **X:** [@ofalamin](https://x.com/ofalamin)  
+→ **𝕏:** [@ofalamin](https://x.com/ofalamin)  
 → **Telegram Channel:** [t.me/Labs87](https://t.me/Labs87)  
 → **Telegram DM:** [@ofalamin](https://t.me/ofalamin)  
 → **GitHub:** [github.com/1momoh](https://github.com/1momoh)
