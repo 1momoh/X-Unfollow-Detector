@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "𝕏 Unfollow Detector",
+  "version": "2.0.0",
+  "description": "Shows who isn't following you back on X. Unfollow ghosts in one click. By .87🌵",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["cookies", "storage"],
+  "host_permissions": [
+    "https://x.com/*",
+    "https://twitter.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*/following*", "https://twitter.com/*/following*"],
+      "js": ["interceptor.js"],
+      "world": "MAIN",
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://x.com/*/following*", "https://twitter.com/*/following*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
